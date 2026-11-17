@@ -4,14 +4,19 @@
       공공데이터포털 '활용명세'에서 확인한 값으로 .env에 설정해야 합니다.
 """
 import os
+import json
+from pathlib import Path
+import csv
+import io
 import re
 import xml.etree.ElementTree as ET
 from functools import lru_cache
 
 import requests
 from dotenv import load_dotenv
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 
 load_dotenv()
 app = FastAPI(title="CineSpot Busan API")
@@ -19,7 +24,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://127.0.0.1:5173", "http://localhost:5173"],
     allow_credentials=False,
-    allow_methods=["GET"],
+    allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 
@@ -33,9 +38,9 @@ def candidates(env_name, defaults):
     return ([custom] if custom else []) + defaults
 
 
-TITLE_FIELDS = candidates("MOVIE_TITLE_FIELD", ["movieNm", "movieName", "movieTitle", "mvNm", "mviNm", "filmNm", "title", "영화명", "작품명"])
-PLACE_FIELDS = candidates("MOVIE_PLACE_FIELD", ["placeNm", "placeName", "locationNm", "locNm", "filmPlace", "filmingPlace", "촬영장소", "장소명"])
-ADDRESS_FIELDS = candidates("MOVIE_ADDRESS_FIELD", ["roadAddr", "roadNmAddr", "roadAddress", "address", "addr", "rdnmadr", "도로명주소", "주소"])
+TITLE_FIELDS = candidates("MOVIE_TITLE_FIELD", ["movieNm", "moviNm", "moviName", "movieName", "movieTitle", "mvNm", "mviNm", "filmNm", "title", "영화명", "작품명"])
+PLACE_FIELDS = candidates("MOVIE_PLACE_FIELD", ["placeNm", "place", "placeName", "plcNm", "locationNm", "locNm", "filmPlace", "filmingPlace", "촬영장소", "장소명"])
+ADDRESS_FIELDS = candidates("MOVIE_ADDRESS_FIELD", ["roadAddr", "roadNmAddr", "roadNmAddress", "roadAddress", "address", "addr", "rdnmadr", "도로명주소", "주소"])
 LAT_FIELDS = candidates("MOVIE_LAT_FIELD", ["lat", "latitude", "위도"])
 LNG_FIELDS = candidates("MOVIE_LNG_FIELD", ["lng", "lon", "longitude", "경도"])
 DESCRIPTION_FIELDS = candidates("MOVIE_DESCRIPTION_FIELD", ["description", "scene", "remark", "비고", "해설"])
@@ -99,32 +104,32 @@ def parse_page(response):
         raise HTTPException(502, detail="공공데이터 응답이 JSON/XML 형식이 아닙니다. API GET 경로와 요청변수를 확인하세요.")
 
 
-@lru_cache(maxsize=1)
-def fetch_movie_rows():
-    if not API_KEY or not API_URL or "실제" in API_URL:
-        raise HTTPException(503, detail="backend/.env에 MOVIE_API_KEY와 실제 MOVIE_API_GET_URL을 먼저 설정하세요.")
-    if not API_URL.startswith("https://apis.data.go.kr/6260000/"):
-        raise HTTPException(503, detail="MOVIE_API_GET_URL을 승인받은 공공데이터 API의 실제 GET 요청주소로 설정하세요.")
+CINEMAP_URL = os.getenv("CINEMAP_API_GET_URL", "https://apis.data.go.kr/6260000/CineMapService/getCineMap").strip()
+CINEMAP_KEY = os.getenv("CINEMAP_API_KEY", "").strip() or API_KEY
 
+
+def fetch_source(url, key, source):
+    if not url or not key:
+        raise HTTPException(503, detail=f"{source} API 키 또는 요청주소가 설정되지 않았습니다.")
+    if not url.startswith("https://apis.data.go.kr/6260000/"):
+        raise HTTPException(503, detail=f"{source} 요청주소를 확인하세요.")
     key_param = os.getenv("MOVIE_KEY_PARAM", "serviceKey")
     page_param = os.getenv("MOVIE_PAGE_PARAM", "pageNo")
     rows_param = os.getenv("MOVIE_ROWS_PARAM", "numOfRows")
     format_param = os.getenv("MOVIE_FORMAT_PARAM", "resultType")
     page_size = 100
-    all_rows = []
-    seen = set()
+    all_rows, seen = [], set()
     for page in range(1, MAX_PAGES + 1):
-        params = {key_param: API_KEY, page_param: page, rows_param: page_size}
+        params = {key_param: key, page_param: page, rows_param: page_size}
         if format_param:
             params[format_param] = "json"
         try:
-            response = requests.get(API_URL, params=params, timeout=15)
+            response = requests.get(url, params=params, timeout=20)
         except requests.RequestException:
-            raise HTTPException(502, detail="공공데이터 API 통신에 실패했습니다. 요청주소·네트워크·승인 상태를 확인하세요.")
+            raise HTTPException(502, detail=f"{source} API 통신에 실패했습니다.")
         rows = parse_page(response)
-        # 응답 구조가 달라 빈 배열로 읽히는 경우도 있으므로 1페이지에서 알림
         if page == 1 and not rows:
-            raise HTTPException(502, detail="API는 응답했지만 목록을 읽지 못했습니다. 실제 GET 응답 구조를 확인해야 합니다.")
+            raise HTTPException(502, detail=f"{source} API 응답에서 목록을 찾지 못했습니다. 실제 응답 필드를 확인하세요.")
         unique = []
         for row in rows:
             if not isinstance(row, dict):
@@ -132,18 +137,125 @@ def fetch_movie_rows():
             signature = repr(sorted((str(k), str(v)) for k, v in row.items()))
             if signature not in seen:
                 seen.add(signature)
-                unique.append(row)
+                unique.append(dict(row, _source=source))
         if not unique:
             break
         all_rows.extend(unique)
-        #if len(rows) < page_size:
-            #break
-        print("수집된 데이터 수:", len(row))
-        print("영화 제목 목록:", sorted({
-            pick(row, TITLE_FIELDS) for row in row
-            if pick(row, TITLE_FIELDS)
-        })[:30])
+        if len(rows) < page_size:
+            break
     return all_rows
+
+
+@lru_cache(maxsize=1)
+def fetch_movie_rows():
+    return fetch_source(API_URL, API_KEY, "영화 속 부산정보")
+
+
+@lru_cache(maxsize=1)
+def fetch_cinemap_rows():
+    return fetch_source(CINEMAP_URL, CINEMAP_KEY, "씨네맵")
+
+
+def combined_rows():
+    # 한 API가 일시적으로 실패해도 나머지 API의 결과는 제공한다.
+    rows, errors = [], {}
+    for source, fetcher in (("영화 속 부산정보", fetch_movie_rows), ("씨네맵", fetch_cinemap_rows)):
+        try:
+            rows.extend(fetcher())
+        except HTTPException as exc:
+            errors[source] = str(exc.detail)
+    if not rows:
+        raise HTTPException(502, detail={"message": "두 API에서 데이터를 가져오지 못했습니다.", "errors": errors})
+    return rows, errors
+
+
+# Title-level screening snapshot from the supplied 429-title export.
+# This is a preliminary film candidate list, NOT a KOFIC-code verified catalog.
+FILM_LIST_FILE = Path(__file__).resolve().parent / "data" / "verified_movies.json"
+
+def allowed_movie_titles():
+    try:
+        return {normalize(t) for t in json.loads(FILM_LIST_FILE.read_text(encoding="utf-8"))}
+    except (OSError, ValueError, TypeError):
+        # Fail closed: never silently expose all TV series when the filter is missing.
+        raise HTTPException(503, detail="영화 전용 목록 파일을 읽지 못했습니다. backend/data/verified_movies.json을 확인하세요.")
+
+# Exclude locations explicitly marked as demolished or permanently closed.
+# A missing marker does not prove a venue is still operating.
+UNAVAILABLE_PLACE_MARKER = re.compile(
+    r"\[\s*(?:철거|폐업|폐점|영업종료|운영종료|영구폐쇄|폐쇄)\s*\]"
+    r"|(?:철거됨|철거완료|철거된\s*(?:장소|건물|시설)|폐업함|폐업한\s*(?:장소|업소|가게)|폐점함|영업\s*종료|운영\s*종료|영구\s*폐쇄)",
+    re.IGNORECASE,
+)
+
+
+def is_unavailable_location(place, description=''):
+    # Place names commonly contain [철거]/[폐업] markers.
+    # Descriptions are checked only for explicit status language.
+    return bool(UNAVAILABLE_PLACE_MARKER.search(str(place or '')) or
+                UNAVAILABLE_PLACE_MARKER.search(str(description or '')))
+
+
+def location_identity(name, address, lat, lng):
+    """Conservative grouping: matching name AND grounded address/coordinates.
+
+    Do not merge same-name places when their address is missing or differs.
+    """
+    n = normalize(name)
+    addr = normalize(address)
+    if addr:
+        return (n, "address", addr)
+    try:
+        if lat not in (None, "") and lng not in (None, ""):
+            return (n, "coordinates", round(float(lat), 5), round(float(lng), 5))
+    except (TypeError, ValueError):
+        pass
+    return None
+
+
+def unified_locations():
+    rows, errors = combined_rows()
+    allowed = allowed_movie_titles()
+    grouped = {}
+    blocked = set()
+    for row in rows:
+        title = pick(row, TITLE_FIELDS)
+        name = pick(row, PLACE_FIELDS)
+        if not title or not name or normalize(title) not in allowed:
+            continue
+        address = pick(row, ADDRESS_FIELDS)
+        lat, lng = pick(row, LAT_FIELDS), pick(row, LNG_FIELDS)
+        description = pick(row, DESCRIPTION_FIELDS)
+        identity = location_identity(name, address, lat, lng)
+        # Rows without a verifiable location are retained separately per movie.
+        key = identity or ("unresolved", normalize(name), normalize(title))
+        if is_unavailable_location(name, description):
+            blocked.add(key)
+            grouped.pop(key, None)
+            continue
+        if key in blocked:
+            continue
+        loc = grouped.get(key)
+        if loc is None:
+            loc = {"id": "", "movie": title, "movies": [title], "name": name,
+                   "address": address, "lat": lat or None, "lng": lng or None,
+                   "description": description, "sources": [row["_source"]]}
+            grouped[key] = loc
+        else:
+            if normalize(title) not in {normalize(m) for m in loc["movies"]}:
+                loc["movies"].append(title)
+            for field, value in (("address", address), ("lat", lat), ("lng", lng),
+                                 ("description", description)):
+                if not loc[field] and value:
+                    loc[field] = value
+            if row["_source"] not in loc["sources"]:
+                loc["sources"].append(row["_source"])
+    result = list(grouped.values())
+    for index, loc in enumerate(result, 1):
+        loc["id"] = f"place-{index}"
+        loc["movies"].sort(key=str.casefold)
+        loc["movie"] = loc["movies"][0]  # compatibility for older UI consumers
+    return result, errors
 
 
 def normalize(value):
@@ -157,26 +269,78 @@ def health():
 
 @app.get("/api/filming-locations")
 def filming_locations(movie: str = Query(min_length=1, max_length=100)):
-    raw = fetch_movie_rows()
-    print("실제 API 필드명:", list(raw[0].keys()) if raw else [])
-
-    if not any(pick(row, TITLE_FIELDS) for row in raw):
-        raise HTTPException(502, detail="영화 제목 필드를 찾지 못했습니다. 실제 응답의 필드명을 MOVIE_TITLE_FIELD에 설정하세요.")
-    matches = []
+    locations, errors = unified_locations()
     target = normalize(movie)
-    for row in raw:
-        title = pick(row, TITLE_FIELDS)
-        place = pick(row, PLACE_FIELDS)
-        if title and place and target in normalize(title):
-            matches.append({
-                "id": f"location-{len(matches) + 1}",
-                "movie": title,
-                "name": place,
-                "address": pick(row, ADDRESS_FIELDS),
-                "lat": pick(row, LAT_FIELDS) or None,
-                "lng": pick(row, LNG_FIELDS) or None,
-                "description": pick(row, DESCRIPTION_FIELDS),
-            })
-    if not matches and any(pick(row, TITLE_FIELDS) and target in normalize(pick(row, TITLE_FIELDS)) for row in raw):
-        raise HTTPException(502, detail="영화는 검색되었지만 촬영장소 필드가 일치하지 않습니다. MOVIE_PLACE_FIELD를 확인하세요.")
-    return {"movie": movie, "locations": matches, "source": "부산광역시_부산영상위원회 영화 속 부산정보"}
+    matches = [loc for loc in locations if any(target in normalize(m) for m in loc["movies"])]
+    return {"movie": movie, "locations": matches,
+            "source": "부산영상위원회 영화 속 부산정보 + 씨네맵", "source_errors": errors}
+
+
+@app.get("/api/all-filming-locations")
+def all_filming_locations():
+    locations, errors = unified_locations()
+    return {"locations": locations,
+            "source": "부산영상위원회 영화 속 부산정보 + 씨네맵", "source_errors": errors}
+
+
+@app.get("/api/movie-filter-status")
+def movie_filter_status():
+    directory = Path(__file__).resolve().parent / "data"
+    return {"method": "제목 기반 1차 분류", "kofic_verified": False,
+            "film_candidates": len(json.loads((directory / "verified_movies.json").read_text(encoding="utf-8"))),
+            "excluded": len(json.loads((directory / "excluded_titles.json").read_text(encoding="utf-8"))),
+            "review_required": len(json.loads((directory / "review_required.json").read_text(encoding="utf-8")))}
+
+@app.get("/api/movies")
+def all_movies():
+    locations, errors = unified_locations()
+    titles = sorted({title for loc in locations for title in loc["movies"]}, key=lambda x: x.casefold())
+    return {"count": len(titles), "movies": titles, "source_errors": errors}
+
+
+@app.get("/api/movies.csv")
+def movies_csv():
+    locations, _ = unified_locations()
+    titles = sorted({title for loc in locations for title in loc["movies"]}, key=lambda x: x.casefold())
+    output = io.StringIO()
+    writer = csv.writer(output)
+    writer.writerow(["영화 제목"])
+    writer.writerows([[title] for title in titles])
+    return StreamingResponse(iter(["\ufeff" + output.getvalue()]), media_type="text/csv; charset=utf-8",
+                             headers={"Content-Disposition": "attachment; filename=cinespot_movies.csv"})
+
+
+@app.get("/api/locations.csv")
+def locations_csv():
+    locations, _ = unified_locations()
+    output = io.StringIO()
+    writer = csv.writer(output)
+    writer.writerow(["영화 제목", "촬영지", "주소", "위도", "경도", "출처"])
+    for loc in locations:
+        writer.writerow([", ".join(loc["movies"]), loc["name"], loc["address"], loc["lat"], loc["lng"], ", ".join(loc["sources"])])
+    return StreamingResponse(iter(["\ufeff" + output.getvalue()]), media_type="text/csv; charset=utf-8",
+                             headers={"Content-Disposition": "attachment; filename=cinespot_locations.csv"})
+
+
+# Reference images are local, not fetched from third-party sites.
+from poster_matcher import match_poster, poster_catalog, POSTER_DIR
+
+@app.get("/api/poster-catalog")
+def get_poster_catalog():
+    return {"movies": poster_catalog(), "reference_directory": "backend/posters", "method": "perceptual image hash"}
+
+@app.post("/api/recognize-poster")
+async def recognize_poster(image: UploadFile = File(...)):
+    """Compare an upload against locally registered poster versions; no paid API."""
+    if image.content_type not in {"image/jpeg", "image/png", "image/webp"}:
+        raise HTTPException(400, detail="JPG, PNG, WEBP 포스터만 업로드할 수 있습니다.")
+    content = await image.read(5 * 1024 * 1024 + 1)
+    if len(content) > 5 * 1024 * 1024:
+        raise HTTPException(413, detail="이미지 크기는 5MB 이하여야 합니다.")
+    try:
+        result = match_poster(content)
+    except ValueError as exc:
+        raise HTTPException(400, detail=str(exc))
+    if not result["candidates"]:
+        raise HTTPException(422, detail="제목을 직접 검색해 주세요.")
+    return result

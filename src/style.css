@@ -278,3 +278,35 @@ button { cursor:pointer; }
 .history-heading-button:hover { color:#3479f6; }
 .sidebar-history-heading .history-heading-button { font-size:12px; font-weight:800; color:var(--text); white-space:normal; }
 .sidebar-history-heading .history-heading-button:hover { color:#3479f6; }
+
+/* Added independent location explorer; existing screens remain unchanged. */
+.feature-entry { margin:24px auto; display:flex; justify-content:center; }
+.location-explorer { max-width:1050px; margin:auto; }
+.location-controls { display:flex; flex-wrap:wrap; align-items:end; gap:12px; margin-bottom:18px; }
+.location-controls label { display:flex; flex-direction:column; gap:6px; font-size:12px; font-weight:700; }
+.location-controls select { padding:10px; border:1px solid var(--line); border-radius:9px; background:var(--surface); color:var(--text); }
+.location-controls .location-checkbox { flex-direction:row; align-items:center; padding-bottom:12px; }
+.location-results { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:12px; margin-top:15px; max-height:620px; overflow:auto; }
+.location-card { border:1px solid var(--line); border-radius:12px; padding:15px; display:flex; flex-direction:column; gap:8px; }
+.location-card strong { font-size:14px; }
+.location-card span,.location-card small { color:var(--secondary); font-size:12px; }
+.location-card .action-row { align-items:center; flex-wrap:wrap; margin-top:auto; }
+.location-card a { color:#3479f6; font-size:12px; }
+
+.poster-candidates { display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:center; margin:14px auto; max-width:850px; }
+.poster-candidates strong { width:100%; text-align:center; }
+.poster-candidates button { max-width:100%; }
+/* Center the plus icon without relying on font glyph metrics. */
+.add-button { display:flex; align-items:center; justify-content:center; padding:0; line-height:1; }
+.add-plus-icon { display:block; flex:none; transform-origin:50% 50%; }
+.location-selected-map { border:1px solid var(--line); border-radius:14px; padding:14px; margin:14px 0; }
+.location-selected-map .action-row { margin-top:12px; }
+.location-pagination { display:flex; justify-content:center; align-items:center; gap:16px; margin-top:16px; font-size:13px; }
+
+/* Shared filmography for a physical filming location */
+.filmed-movies { margin: 10px 0; padding: 12px; border: 1px solid #e2e6ef; border-radius: 12px; background: #f8faff; }
+.filmed-movies > strong { display: block; margin-bottom: 8px; font-size: 13px; }
+.filmed-movie-links { display: flex; flex-wrap: wrap; gap: 7px; }
+.filmed-movie-tag { border: 1px solid #d6ddeb; background: white; border-radius: 20px; padding: 6px 10px; font: inherit; font-size: 12px; color: #24314d; }
+button.filmed-movie-tag { cursor: pointer; }
+button.filmed-movie-tag:hover { border-color: #648dff; }
