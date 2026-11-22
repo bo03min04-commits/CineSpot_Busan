@@ -310,3 +310,125 @@ button { cursor:pointer; }
 .filmed-movie-tag { border: 1px solid #d6ddeb; background: white; border-radius: 20px; padding: 6px 10px; font: inherit; font-size: 12px; color: #24314d; }
 button.filmed-movie-tag { cursor: pointer; }
 button.filmed-movie-tag:hover { border-color: #648dff; }
+.movie-recommendations {
+  width: min(960px, 100%);
+  box-sizing: border-box;
+  margin: 24px auto;
+  padding: 0 20px;
+  color: inherit;
+}
+
+.movie-recommendations-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.movie-recommendations-heading h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.movie-sort-options {
+  display: flex;
+  gap: 8px;
+}
+
+.movie-sort-options button {
+  padding: 8px 12px;
+  border: 1px solid currentColor;
+  border-radius: 20px;
+  background: transparent;
+  color: inherit;
+}
+
+.movie-sort-options button:disabled {
+  opacity: 0.45;
+}
+
+.movie-recommendations > p {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.movie-recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+}
+
+.movie-recommendation-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid currentColor;
+  border-radius: 14px;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+
+.movie-recommendation-card strong {
+  overflow-wrap: anywhere;
+}
+
+.movie-recommendation-card span {
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+.movie-recommendation-card:hover:not(:disabled) {
+  background: rgba(128, 128, 128, 0.12);
+}
+
+.movie-recommendation-card:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+.movie-recommendations-grid {
+  grid-template-columns: 1fr;
+}
+
+.movie-recommendation-card {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  padding: 18px 22px;
+}
+
+.movie-recommendation-card .movie-rank {
+  min-width: 44px;
+  font-size: 22px;
+  font-weight: 800;
+  opacity: 1;
+}
+
+.movie-recommendation-card strong {
+  flex: 1;
+  min-width: 140px;
+  font-size: 17px;
+}
+
+.movie-recommendation-card > span:last-child {
+  margin-left: auto;
+}
+
+@media (max-width: 600px) {
+  .movie-recommendation-card {
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .movie-recommendation-card strong {
+    min-width: 0;
+    flex-basis: calc(100% - 64px);
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {"names":["프루아"],"address":"부산 영도구 와치로 15","action":"exclude"},
+  {"names":["케이디씨"],"address":"부산 해운대구 센텀서로 30","action":"exclude"},
+  {"names":["임식당"],"address":"부산 강서구 명지국제2로 80","action":"exclude"},
+  {"names":["지아이푸드","지아이 푸드"],"address":"부산 강서구 명지국제2로 80","action":"exclude"},
+  {"names":["정관도서관 식당"],"address":"부산 기장군 정관읍 정관중앙로 100","action":"exclude"},
+  {"names":["뼈대루 감자탕 정관점"],"address":"부산 기장군 정관읍 가동길 12","action":"exclude"},
+  {"names":["대궐면옥","대궐면옥 센텀점","대궐면옥 엔 한우암소갈비"],"address":"부산 해운대구 센텀6로 21","action":"rename","name":"대궐면옥 엔 한우암소갈비","query_url":"https://map.naver.com/p/entry/place/1355087208"}
+]

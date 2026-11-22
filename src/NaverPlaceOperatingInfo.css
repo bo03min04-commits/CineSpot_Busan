@@ -1,0 +1,21 @@
+.naver-operating-wrapper { flex: 0 0 100%; width: 100%; min-width: 0; }
+.nearby-item:has(> .naver-operating-wrapper) { flex-wrap: wrap; }
+.naver-operating-info { box-sizing: border-box; padding: 16px; margin-top: 12px; border: 1px solid #8b95a544; border-radius: 12px; text-align: left; font-size: 14px; }
+.nhi-heading { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.nhi-status { font-size: 12px; background: #8b95a522; padding: 4px 9px; border-radius: 6px; }
+.nhi-open_now { color: #087744; background: #20a66b18; }
+.nhi-closed_now, .nhi-before_open { color: #72502c; background: #ac85331a; }
+.nhi-permanently_closed, .nhi-temporarily_closed { color: #b14d43; background: #bd594914; }
+.nhi-substatus { font-size: 13px; margin: 10px 0; }
+.nhi-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 13px; }
+.nhi-table th, .nhi-table td { padding: 9px 6px; border-bottom: 1px solid #8b95a533; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+.nhi-table th { font-weight: 500; }
+.nhi-meta { font-size: 12px; opacity: .75; line-height: 1.6; }
+.naver-operating-info a { color: inherit; }
+.naver-operating-info button { border: 1px solid #8b95a566; border-radius: 7px; padding: 7px 10px; color: inherit; background: transparent; cursor: pointer; }
+.naver-operating-wrapper > details { margin-top: 10px; font-size: 13px; }
+.naver-operating-wrapper summary { cursor: pointer; padding: 5px 0; }
+.nhi-admin { margin-top: 12px; font-size: 12px; }
+.nhi-admin label { display: flex; flex-direction: column; gap: 5px; margin: 9px 0; }
+.nhi-admin input { width: 100%; box-sizing: border-box; font: inherit; color: CanvasText; background: Canvas; border: 1px solid #8b95a566; border-radius: 7px; padding: 8px; }
+@media (max-width: 480px) { .nhi-table { font-size: 11px; } .nhi-table th, .nhi-table td { padding: 8px 3px; } }

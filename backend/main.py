@@ -10,15 +10,15 @@ import csv
 import io
 import re
 import xml.etree.ElementTree as ET
-from functools import lru_cache
 
 import requests
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Query, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
+from movie_refresh import MovieRefreshService, create_lifespan
 
-load_dotenv()
+load_dotenv(Path(__file__).resolve().parent / ".env")
 app = FastAPI(title="CineSpot Busan API")
 app.add_middleware(
     CORSMiddleware,
@@ -146,14 +146,16 @@ def fetch_source(url, key, source):
     return all_rows
 
 
-@lru_cache(maxsize=1)
 def fetch_movie_rows():
-    return fetch_source(API_URL, API_KEY, "영화 속 부산정보")
+    return refresh_service.source_rows(
+        "영화 속 부산정보", lambda: fetch_source(API_URL, API_KEY, "영화 속 부산정보")
+    )
 
 
-@lru_cache(maxsize=1)
 def fetch_cinemap_rows():
-    return fetch_source(CINEMAP_URL, CINEMAP_KEY, "씨네맵")
+    return refresh_service.source_rows(
+        "씨네맵", lambda: fetch_source(CINEMAP_URL, CINEMAP_KEY, "씨네맵")
+    )
 
 
 def combined_rows():
@@ -175,7 +177,9 @@ FILM_LIST_FILE = Path(__file__).resolve().parent / "data" / "verified_movies.jso
 
 def allowed_movie_titles():
     try:
-        return {normalize(t) for t in json.loads(FILM_LIST_FILE.read_text(encoding="utf-8"))}
+        titles = json.loads(FILM_LIST_FILE.read_text(encoding="utf-8"))
+        titles = [*titles, *refresh_service.approved_titles()]
+        return {normalize(t) for t in titles}
     except (OSError, ValueError, TypeError):
         # Fail closed: never silently expose all TV series when the filter is missing.
         raise HTTPException(503, detail="영화 전용 목록 파일을 읽지 못했습니다. backend/data/verified_movies.json을 확인하세요.")
@@ -255,7 +259,8 @@ def unified_locations():
         loc["id"] = f"place-{index}"
         loc["movies"].sort(key=str.casefold)
         loc["movie"] = loc["movies"][0]  # compatibility for older UI consumers
-    return result, errors
+    from filming_location_dedup import deduplicate_locations
+    return deduplicate_locations(result), errors
 
 
 def normalize(value):
@@ -297,6 +302,50 @@ def all_movies():
     titles = sorted({title for loc in locations for title in loc["movies"]}, key=lambda x: x.casefold())
     return {"count": len(titles), "movies": titles, "source_errors": errors}
 
+@app.get("/api/recommended-movies")
+def recommended_movies(sort: str = Query(default="latest")):
+    if sort not in {"latest", "popular"}:
+        raise HTTPException(
+            status_code=400,
+            detail="정렬 기준은 latest 또는 popular이어야 합니다.",
+        )
+
+    metadata, refresh_status = refresh_service.recommendation_data()
+    titles = sorted(metadata, key=str.casefold)
+    errors = refresh_status.get("source_errors") or {}
+
+    movies = []
+    for title in titles:
+        info = metadata.get(title, {})
+        movies.append({
+            "title": title,
+            "release_date": info.get("release_date"),
+            "audience": info.get("audience"),
+            "audience_as_of": info.get("audience_as_of"),
+        })
+
+    if sort == "latest":
+        movies.sort(
+            key=lambda movie: movie["release_date"] or "",
+            reverse=True,
+        )
+    else:
+        movies.sort(
+            key=lambda movie: (
+                movie["audience"]
+                if movie["audience"] is not None
+                else -1
+            ),
+            reverse=True,
+        )
+
+    return {
+        "count": len(movies),
+        "sort": sort,
+        "movies": movies,
+        "source_errors": errors,
+        "refresh_status": refresh_status,
+    }
 
 @app.get("/api/movies.csv")
 def movies_csv():
@@ -344,3 +393,30 @@ async def recognize_poster(image: UploadFile = File(...)):
     if not result["candidates"]:
         raise HTTPException(422, detail="제목을 직접 검색해 주세요.")
     return result
+
+
+# Background collection uses a separate snapshot; manual data remains available.
+refresh_service = MovieRefreshService(
+    Path(__file__).resolve().parent / "data",
+    fetcher=fetch_source,
+    sources=lambda: [
+        (API_URL, API_KEY, "영화 속 부산정보"),
+        (CINEMAP_URL, CINEMAP_KEY, "씨네맵"),
+    ],
+    get_title=lambda row: pick(row, TITLE_FIELDS),
+    usable_row=lambda row: bool(pick(row, PLACE_FIELDS))
+    and not is_unavailable_location(
+        pick(row, PLACE_FIELDS), pick(row, DESCRIPTION_FIELDS)
+    ),
+)
+app.router.lifespan_context = create_lifespan(refresh_service)
+
+
+# Shared place operating information (additive; existing routes unchanged).
+from place_operating_service import register_operating_info
+register_operating_info(app, Path(__file__).resolve().parent / 'data')
+
+
+# Plain-text Naver operating cards.
+from naver_hours_service import register_naver_hours
+register_naver_hours(app, Path(__file__).resolve().parent / 'data')

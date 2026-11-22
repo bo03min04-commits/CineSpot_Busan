@@ -1,0 +1,2879 @@
+{
+  "1987": {
+    "movie_code": "20170590",
+    "release_date": "2017-12-27",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 7233076,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "1급기밀": {
+    "movie_code": "20168161",
+    "release_date": "2018-01-24",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 218946,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "1번가의 기적": {
+    "movie_code": "20070014",
+    "release_date": "2007-02-14",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2534600,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "2009 로스트 메모리즈": {
+    "movie_code": "20020063",
+    "release_date": "2002-02-01",
+    "release_date_source": "KOBIS 영화목록"
+  },
+  "6월의 일기": {
+    "movie_code": "20050318",
+    "release_date": "2005-12-01",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 593867,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "7년의 밤": {
+    "movie_code": "20154908",
+    "release_date": "2018-03-28",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 528007,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "가문의 위기": {
+    "movie_code": "20050219",
+    "release_date": "2005-09-07",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 4526455,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "가을로": {
+    "movie_code": "20060288",
+    "release_date": "2006-10-26",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 601466,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "간첩": {
+    "movie_code": "20124400",
+    "release_date": "2012-09-20",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1310895,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "감쪽같은 그녀": {
+    "movie_code": "20188462",
+    "release_date": "2019-12-04",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 470809,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "강력3반": {
+    "movie_code": "20050233",
+    "release_date": "2005-09-29",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 827871,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "강철비": {
+    "movie_code": "20170402",
+    "release_date": "2017-12-14",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 4452900,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "거룩한 계보": {
+    "movie_code": "20060292",
+    "release_date": "2006-10-19",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1432952,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "검사외전": {
+    "movie_code": "20145507",
+    "release_date": "2016-02-03",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 9707581,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "검은 수녀들": {
+    "movie_code": "20247450",
+    "release_date": "2025-01-24",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1670560,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "결정적 한방": {
+    "movie_code": "20113312",
+    "release_date": "2011-12-07",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 60944,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "경관의 피": {
+    "movie_code": "20199882",
+    "release_date": "2022-01-05",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 684681,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "경성학교: 사라진 소녀들": {
+    "movie_code": "20141224",
+    "release_date": "2015-06-18",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 356436,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "곤지암": {
+    "movie_code": "20180804",
+    "release_date": "2018-03-28",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2690680,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "공모자들": {
+    "movie_code": "20124063",
+    "release_date": "2012-08-29",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1646142,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "공조": {
+    "movie_code": "20151228",
+    "release_date": "2017-01-18",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 7817686,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "괴물들": {
+    "movie_code": "20165444",
+    "release_date": "2018-03-08",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 3277,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "국경의 남쪽": {
+    "movie_code": "20060093",
+    "release_date": "2006-05-04",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 227120,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "국제수사": {
+    "movie_code": "20184482",
+    "release_date": "2020-09-29",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 537570,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "국제시장": {
+    "movie_code": "20137048",
+    "release_date": "2014-12-17",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 14269967,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "국화꽃 향기": {
+    "movie_code": "20030014",
+    "release_date": "2003-02-28",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 48,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "군도: 민란의 시대": {
+    "movie_code": "20123501",
+    "release_date": "2014-07-23",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 4776071,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "굿모닝 프레지던트": {
+    "movie_code": "20090605",
+    "release_date": "2009-10-22",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2554960,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "권순분 여사 납치사건": {
+    "movie_code": "20070421",
+    "release_date": "2007-09-12",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1514708,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "그 남자의 책 198쪽": {
+    "movie_code": "20081403",
+    "release_date": "2008-10-23",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 93445,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "그날의 분위기": {
+    "movie_code": "20068576",
+    "release_date": "2016-01-14",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 653287,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "그림자들의 섬": {
+    "movie_code": "20148384",
+    "release_date": "2016-08-25",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 4560,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "극락도 살인사건": {
+    "movie_code": "20070104",
+    "release_date": "2007-04-12",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2076491,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "극비수사": {
+    "movie_code": "20148855",
+    "release_date": "2015-06-18",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2860786,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "기담": {
+    "movie_code": "20070262",
+    "release_date": "2007-08-01",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 646241,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "기술자들": {
+    "movie_code": "20149265",
+    "release_date": "2014-12-24",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2564340,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "깡철이": {
+    "movie_code": "20123381",
+    "release_date": "2013-10-02",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1209363,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "나쁜놈은 죽는다": {
+    "movie_code": "20156080",
+    "release_date": "2016-02-04",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 14950,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "나의 독재자": {
+    "movie_code": "20148626",
+    "release_date": "2014-10-30",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 386072,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "남극일기": {
+    "movie_code": "20050046",
+    "release_date": "2005-05-19",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 871098,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "남산의 부장들": {
+    "movie_code": "20180939",
+    "release_date": "2020-01-22",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 4750917,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "내 사랑 내 곁에": {
+    "movie_code": "20090329",
+    "release_date": "2009-09-24",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2135509,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "내 여자친구를 소개합니다": {
+    "movie_code": "20040568",
+    "release_date": "2004-06-03",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1298666,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "내부자들": {
+    "movie_code": "20149314",
+    "release_date": "2015-11-19",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 7073581,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "너를 잊지 않을 거야": {
+    "movie_code": "20081519",
+    "release_date": "2008-10-30",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 73582,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "네버엔딩 스토리": {
+    "movie_code": "20113636",
+    "release_date": "2012-01-18",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 283449,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "눈부신 날에": {
+    "movie_code": "20070096",
+    "release_date": "2007-04-19",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 271641,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "늑대사냥": {
+    "movie_code": "20211472",
+    "release_date": "2022-09-21",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 458720,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "님은 먼곳에": {
+    "movie_code": "20080764",
+    "release_date": "2008-07-24",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1706495,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "달마야 놀자": {
+    "movie_code": "20010010",
+    "release_date": "2001-11-08",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 0,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "담보": {
+    "movie_code": "20199816",
+    "release_date": "2020-09-29",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1719882,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "당신, 거기 있어줄래요": {
+    "movie_code": "20152371",
+    "release_date": "2016-12-14",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1168827,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "당신의 부탁": {
+    "movie_code": "20177962",
+    "release_date": "2018-04-19",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 25920,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "댄싱퀸": {
+    "movie_code": "20113743",
+    "release_date": "2012-01-18",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 4058325,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "도쿄택시": {
+    "movie_code": "20100049",
+    "release_date": "2010-05-20",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 6034,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "돌려차기": {
+    "movie_code": "20040586",
+    "release_date": "2004-07-23",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 41401,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "두 얼굴의 여친": {
+    "movie_code": "20070379",
+    "release_date": "2007-09-13",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 700417,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "뜨거운 피": {
+    "movie_code": "20199500",
+    "release_date": "2022-03-23",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 398090,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "라이터를 켜라": {
+    "movie_code": "20020204",
+    "release_date": "2002-07-16",
+    "release_date_source": "KOBIS 영화목록"
+  },
+  "레드카펫": {
+    "movie_code": "20139964",
+    "release_date": "2014-10-23",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 316953,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "로봇, 소리": {
+    "movie_code": "20157466",
+    "release_date": "2016-01-27",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 476665,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "리베라 메": {
+    "movie_code": "20000055",
+    "release_date": "2000-11-11",
+    "release_date_source": "KOBIS 영화목록"
+  },
+  "마린보이": {
+    "movie_code": "20080870",
+    "release_date": "2009-02-05",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 827647,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "마약왕": {
+    "movie_code": "20168773",
+    "release_date": "2018-12-19",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1864076,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "마을금고 연쇄습격사건": {
+    "movie_code": "20070091",
+    "release_date": "2007-11-14",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 115637,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "마음이...": {
+    "movie_code": "20060279",
+    "release_date": "2006-10-26",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 816477,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "마이 리틀 히어로": {
+    "movie_code": "20126583",
+    "release_date": "2013-01-09",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 186405,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "마이 블랙 미니드레스": {
+    "movie_code": "20119720",
+    "release_date": "2011-03-24",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 313953,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "마이 캡틴 김대출": {
+    "movie_code": "20060088",
+    "release_date": "2006-04-20",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 107913,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "말모이": {
+    "movie_code": "20184105",
+    "release_date": "2019-01-09",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2868762,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "명당": {
+    "movie_code": "20172204",
+    "release_date": "2018-09-19",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2087584,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "모비딕": {
+    "movie_code": "20110313",
+    "release_date": "2011-06-09",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 430936,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "무서운 이야기 2": {
+    "movie_code": "20136058",
+    "release_date": "2013-06-05",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 495535,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "무현, 두 도시 이야기": {
+    "movie_code": "20162545",
+    "release_date": "2016-10-26",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 193786,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "미스터 소크라테스": {
+    "movie_code": "20050280",
+    "release_date": "2005-11-10",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1065861,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "미쓰GO": {
+    "movie_code": "20113532",
+    "release_date": "2012-06-21",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 611685,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "미씽: 사라진 여자": {
+    "movie_code": "20153741",
+    "release_date": "2016-11-30",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1153201,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "바람 바람 바람": {
+    "movie_code": "20153447",
+    "release_date": "2018-04-05",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1194229,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "박수건달": {
+    "movie_code": "20124935",
+    "release_date": "2013-01-09",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 3897969,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "박열": {
+    "movie_code": "20178982",
+    "release_date": "2017-06-28",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2359873,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "박화영": {
+    "movie_code": "20171681",
+    "release_date": "2018-07-19",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 5981,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "반가운 살인자": {
+    "movie_code": "20100129",
+    "release_date": "2010-04-08",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 590531,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "반도": {
+    "movie_code": "20193450",
+    "release_date": "2020-07-15",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 3813140,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "발신제한": {
+    "movie_code": "20192696",
+    "release_date": "2021-06-23",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 955913,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "방과후 옥상": {
+    "movie_code": "20060046",
+    "release_date": "2006-03-16",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 772648,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "범죄도시2": {
+    "movie_code": "20204548",
+    "release_date": "2022-05-18",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 12693415,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "범죄와의 전쟁: 나쁜놈들 전성시대": {
+    "movie_code": "20113557",
+    "release_date": "2012-02-02",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 4720172,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "변호인": {
+    "movie_code": "20134803",
+    "release_date": "2013-12-18",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 11375399,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "보안관": {
+    "movie_code": "20162722",
+    "release_date": "2017-05-03",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2588628,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "복면달호": {
+    "movie_code": "20070020",
+    "release_date": "2007-02-14",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1507782,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "봄, 눈": {
+    "movie_code": "20113556",
+    "release_date": "2012-04-26",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 22870,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "부당거래": {
+    "movie_code": "20100213",
+    "release_date": "2010-10-28",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2726324,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "부산행": {
+    "movie_code": "20156564",
+    "release_date": "2016-07-20",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 11567816,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "불한당: 나쁜 놈들의 세상": {
+    "movie_code": "20164844",
+    "release_date": "2017-05-17",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 967062,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "뷰티풀 선데이": {
+    "movie_code": "20070047",
+    "release_date": "2007-03-29",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 169025,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "빛과 철": {
+    "movie_code": "20198501",
+    "release_date": "2021-02-18",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 10488,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "뺑반": {
+    "movie_code": "20180868",
+    "release_date": "2019-01-30",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1827054,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "살인의뢰": {
+    "movie_code": "20148461",
+    "release_date": "2015-03-12",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 855980,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "삼진그룹 영어토익반": {
+    "movie_code": "20197121",
+    "release_date": "2020-10-21",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1573226,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "서복": {
+    "movie_code": "20183003",
+    "release_date": "2021-04-15",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 385409,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "서울의 봄": {
+    "movie_code": "20212866",
+    "release_date": "2023-11-22",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 13128587,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "성난 변호사": {
+    "movie_code": "20142855",
+    "release_date": "2015-10-08",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1128288,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "성냥팔이 소녀의 재림": {
+    "movie_code": "20020240",
+    "release_date": "2002-09-12",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 0,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "션샤인 러브": {
+    "movie_code": "20130260",
+    "release_date": "2015-09-17",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 899,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "소년, 천국에 가다": {
+    "movie_code": "20050283",
+    "release_date": "2005-11-11",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 207170,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "소주전쟁": {
+    "movie_code": "20231495",
+    "release_date": "2025-05-30",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 283787,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "숙명": {
+    "movie_code": "20080226",
+    "release_date": "2008-03-20",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 846905,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "슈퍼스타 감사용": {
+    "movie_code": "20040619",
+    "release_date": "2004-09-17",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 627141,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "시간이탈자": {
+    "movie_code": "20142621",
+    "release_date": "2016-04-13",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1202511,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "시체가 돌아왔다": {
+    "movie_code": "20124051",
+    "release_date": "2012-03-29",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 986923,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "신의 한 수: 귀수편": {
+    "movie_code": "20181434",
+    "release_date": "2019-11-07",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2159081,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "실미도": {
+    "movie_code": "20030410",
+    "release_date": "2003-12-24",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1719167,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "싸이보그지만 괜찮아": {
+    "movie_code": "20060356",
+    "release_date": "2006-12-07",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 677026,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "쎄시봉": {
+    "movie_code": "20148188",
+    "release_date": "2015-02-05",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1715373,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "쏜다": {
+    "movie_code": "20060420",
+    "release_date": "2007-03-14",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 328837,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "쓰리 썸머 나잇": {
+    "movie_code": "20141060",
+    "release_date": "2015-07-15",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 77621,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "아빠는 예쁘다": {
+    "movie_code": "20185201",
+    "release_date": "2019-11-21",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2410,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "아이 캔 스피크": {
+    "movie_code": "20174142",
+    "release_date": "2017-09-21",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 3293647,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "악의 연대기": {
+    "movie_code": "20149569",
+    "release_date": "2015-05-14",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2192552,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "암수살인": {
+    "movie_code": "20179189",
+    "release_date": "2018-10-03",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 3789553,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "애자": {
+    "movie_code": "20090484",
+    "release_date": "2009-09-09",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1901731,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "야당": {
+    "movie_code": "20232394",
+    "release_date": "2025-04-16",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 3378276,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "어깨너머의 연인": {
+    "movie_code": "20070023",
+    "release_date": "2007-10-18",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 295394,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "어부바": {
+    "movie_code": "20223991",
+    "release_date": "2022-05-11",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 24408,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "어쩔수가없다": {
+    "movie_code": "20243561",
+    "release_date": "2025-09-24",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2942822,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "연가시": {
+    "movie_code": "20124062",
+    "release_date": "2012-07-05",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 4516063,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "연애, 그 참을 수 없는 가벼움": {
+    "movie_code": "20060242",
+    "release_date": "2006-09-07",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 565885,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "연애의 발동: 상해 여자, 부산 남자": {
+    "movie_code": "20162581",
+    "release_date": "2016-06-02",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 273,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "열한시": {
+    "movie_code": "20124402",
+    "release_date": "2013-11-28",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 870785,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "영하의 바람": {
+    "movie_code": "20181205",
+    "release_date": "2019-11-14",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2936,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "예의없는 것들": {
+    "movie_code": "20060225",
+    "release_date": "2006-08-24",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 782907,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "오로라 공주": {
+    "movie_code": "20050271",
+    "release_date": "2005-10-27",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 830266,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "오버 더 레인보우": {
+    "movie_code": "20020139",
+    "release_date": "2002-05-16",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 15,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "오케이 마담": {
+    "movie_code": "20199883",
+    "release_date": "2020-08-12",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1229372,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "옥수역 귀신": {
+    "movie_code": "20225865",
+    "release_date": "2023-04-19",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 256537,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "용감한 시민": {
+    "movie_code": "20224517",
+    "release_date": "2023-10-25",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 267371,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "용의자X": {
+    "movie_code": "20124057",
+    "release_date": "2012-10-18",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1552055,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "용의주도 미스신": {
+    "movie_code": "20070640",
+    "release_date": "2007-12-18",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 579976,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "우는 남자": {
+    "movie_code": "20132482",
+    "release_date": "2014-06-04",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 603495,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "우상": {
+    "movie_code": "20175407",
+    "release_date": "2019-03-20",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 183841,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "우아한 세계": {
+    "movie_code": "20070072",
+    "release_date": "2007-04-05",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 960077,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "울학교 이티": {
+    "movie_code": "20081244",
+    "release_date": "2008-09-11",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 652178,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "원탁의 천사": {
+    "movie_code": "20060245",
+    "release_date": "2006-08-24",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 401660,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "육혈포 강도단": {
+    "movie_code": "20090939",
+    "release_date": "2010-03-18",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1214237,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "은하해방전선": {
+    "movie_code": "20070552",
+    "release_date": "2007-11-29",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 5228,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "이웃사람": {
+    "movie_code": "20125920",
+    "release_date": "2012-08-22",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2434435,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "이파네마 소년": {
+    "movie_code": "20100299",
+    "release_date": "2010-11-04",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 3436,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "인사동 스캔들": {
+    "movie_code": "20090225",
+    "release_date": "2009-04-29",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1187684,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "작업의 정석": {
+    "movie_code": "20050330",
+    "release_date": "2005-12-21",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1853625,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "잘 살아보세": {
+    "movie_code": "20060291",
+    "release_date": "2006-09-28",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 236799,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "전설의 주먹": {
+    "movie_code": "20125333",
+    "release_date": "2013-04-10",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1744585,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "전우치": {
+    "movie_code": "20090077",
+    "release_date": "2009-12-23",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 6065505,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "점쟁이들": {
+    "movie_code": "20113887",
+    "release_date": "2012-10-03",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 953682,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "정글쥬스": {
+    "movie_code": "20020103",
+    "release_date": "2002-03-21",
+    "release_date_source": "KOBIS 영화목록"
+  },
+  "정승필 실종사건": {
+    "movie_code": "20090562",
+    "release_date": "2009-10-08",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 318852,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "제보자": {
+    "movie_code": "20134589",
+    "release_date": "2014-10-02",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1755221,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "조선명탐정: 사라진 놉의 딸": {
+    "movie_code": "20149570",
+    "release_date": "2015-02-11",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 3872015,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "주유소 습격사건 2": {
+    "movie_code": "20090895",
+    "release_date": "2010-01-21",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 729834,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "지푸라기라도 잡고 싶은 짐승들": {
+    "movie_code": "20180962",
+    "release_date": "2020-02-19",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 629279,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "찌라시: 위험한 소문": {
+    "movie_code": "20139401",
+    "release_date": "2014-02-20",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1221427,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "착신아리 파이널": {
+    "movie_code": "20060164",
+    "release_date": "2006-06-22",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 261133,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "창피해": {
+    "movie_code": "20116048",
+    "release_date": "2011-12-08",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 3234,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "천사몽": {
+    "movie_code": "20010043",
+    "release_date": "2001-02-17",
+    "release_date_source": "KOBIS 영화목록"
+  },
+  "첫사랑 사수 궐기대회": {
+    "movie_code": "20030123",
+    "release_date": "2003-06-27",
+    "release_date_source": "KOBIS 영화목록"
+  },
+  "친구 2": {
+    "movie_code": "20137044",
+    "release_date": "2013-11-14",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2971475,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "친절한 금자씨": {
+    "movie_code": "20050148",
+    "release_date": "2005-07-29",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 3121973,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "탈출: 프로젝트 사일런스": {
+    "movie_code": "20208911",
+    "release_date": "2024-07-12",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 689603,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "탐정 홍길동: 사라진 마을": {
+    "movie_code": "20142406",
+    "release_date": "2016-05-04",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1430960,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "탐정: 리턴즈": {
+    "movie_code": "20178161",
+    "release_date": "2018-06-13",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 3152895,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "태풍태양": {
+    "movie_code": "20050015",
+    "release_date": "2005-06-02",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 47939,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "택시운전사": {
+    "movie_code": "20162869",
+    "release_date": "2017-08-02",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 12189988,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "퇴마: 무녀굴": {
+    "movie_code": "20158481",
+    "release_date": "2015-08-20",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 120802,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "투사부일체": {
+    "movie_code": "20050363",
+    "release_date": "2006-01-19",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 5073037,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "투혼": {
+    "movie_code": "20112552",
+    "release_date": "2011-10-06",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 211139,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "특송": {
+    "movie_code": "20192354",
+    "release_date": "2022-01-12",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 444438,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "파과": {
+    "movie_code": "20240398",
+    "release_date": "2025-04-30",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 550917,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "파랑주의보": {
+    "movie_code": "20050332",
+    "release_date": "2005-12-22",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 237284,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "퍼시픽 림: 업라이징": {
+    "movie_code": "20174603",
+    "release_date": "2018-03-21",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1077235,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "푸른소금": {
+    "movie_code": "20110301",
+    "release_date": "2011-08-31",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 771699,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "하류인생": {
+    "movie_code": "20040484",
+    "release_date": "2004-05-21",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 224856,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "한산: 용의 출현": {
+    "movie_code": "20209343",
+    "release_date": "2022-07-27",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 7267202,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "해야 할 일": {
+    "movie_code": "20234711",
+    "release_date": "2024-09-25",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 5273,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "해운대": {
+    "movie_code": "20090074",
+    "release_date": "2009-07-22",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 11325117,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "해치지않아": {
+    "movie_code": "20183002",
+    "release_date": "2020-01-15",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1224726,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "해피뉴이어": {
+    "movie_code": "20217807",
+    "release_date": "2021-12-29",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 236642,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "핸섬 가이즈": {
+    "movie_code": "20208245",
+    "release_date": "2024-06-26",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1777358,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "헤어질 결심": {
+    "movie_code": "20209654",
+    "release_date": "2022-06-29",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1910584,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "협녀, 칼의 기억": {
+    "movie_code": "20130021",
+    "release_date": "2015-08-13",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 431310,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "황제를 위하여": {
+    "movie_code": "20134591",
+    "release_date": "2014-06-11",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 592435,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "흔들리는 물결": {
+    "movie_code": "20155385",
+    "release_date": "2016-10-27",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1961,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "흡혈형사 나도열": {
+    "movie_code": "20060017",
+    "release_date": "2006-02-09",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1563579,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "희생부활자": {
+    "movie_code": "20154907",
+    "release_date": "2017-10-12",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 323628,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "히말라야, 바람이 머무는 곳": {
+    "movie_code": "20090075",
+    "release_date": "2009-06-11",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 8910,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "히트맨2": {
+    "movie_code": "20233006",
+    "release_date": "2025-01-22",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 2547598,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "힘을 내요, 미스터 리": {
+    "movie_code": "20187322",
+    "release_date": "2019-09-11",
+    "release_date_source": "KOBIS 영화목록",
+    "audience": 1182102,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "V.I.P. (브이아이피)": {
+    "movie_code": "20164174",
+    "kobis_title": "브이아이피",
+    "release_date": "2017-08-23",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "박훈정"
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 1373316,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "가면": {
+    "movie_code": "20070641",
+    "kobis_title": "가면",
+    "release_date": "2007-12-27",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "양윤호"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 318614,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "가발": {
+    "movie_code": "20050160",
+    "kobis_title": "가발",
+    "release_date": "2005-08-12",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "원신연"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 448045,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "감기": {
+    "movie_code": "20124937",
+    "kobis_title": "감기",
+    "release_date": "2013-08-14",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김성수"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 3117859,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "강적": {
+    "movie_code": "20060138",
+    "kobis_title": "강적",
+    "release_date": "2006-06-22",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "조민호"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 318142,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "고사: 피의 중간고사": {
+    "movie_code": "20081058",
+    "kobis_title": "고死 : 피의 중간고사",
+    "release_date": "2008-08-07",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "창"
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 1634192,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "공작": {
+    "movie_code": "20179101",
+    "kobis_title": "공작",
+    "release_date": "2018-08-08",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "윤종빈"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 4975637,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "기적": {
+    "movie_code": "20200474",
+    "kobis_title": "기적",
+    "release_date": "2021-09-15",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이장훈"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 717678,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "꾼": {
+    "movie_code": "20165748",
+    "kobis_title": "꾼",
+    "release_date": "2017-11-22",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "장창원"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 4018341,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "꿈은 이루어진다": {
+    "movie_code": "20100206",
+    "kobis_title": "꿈은 이루어진다",
+    "release_date": "2010-05-27",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "계윤식"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 101699,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "나를 잊지 말아요": {
+    "movie_code": "20142641",
+    "kobis_title": "나를 잊지 말아요",
+    "release_date": "2016-01-07",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이윤정"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 427197,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "남과 여": {
+    "movie_code": "20145502",
+    "kobis_title": "남과 여",
+    "release_date": "2016-02-25",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이윤기"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 203775,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "남자가 사랑할 때": {
+    "movie_code": "20137043",
+    "kobis_title": "남자가 사랑할 때",
+    "release_date": "2014-01-22",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "한동욱"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1980120,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "눈에는 눈, 이에는 이": {
+    "movie_code": "20080968",
+    "kobis_title": "눈에는 눈 이에는 이",
+    "release_date": "2008-07-31",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "곽경택",
+      "안권태"
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 2058616,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "달콤한 거짓말": {
+    "movie_code": "20080750",
+    "kobis_title": "달콤한 거짓말",
+    "release_date": "2008-12-18",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "정정화"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 471310,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "달콤한 인생": {
+    "movie_code": "20050017",
+    "kobis_title": "달콤한 인생",
+    "release_date": "2005-04-01",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김지운"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1113050,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "대외비: 권력의 탄생": {
+    "movie_code": "20208962",
+    "kobis_title": "대외비",
+    "release_date": "2023-03-01",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이원태"
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 756355,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "더 게임": {
+    "movie_code": "20071675",
+    "kobis_title": "더 게임",
+    "release_date": "2008-01-30",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "윤인호"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1479673,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "더 박스": {
+    "movie_code": "20216673",
+    "kobis_title": "더 박스",
+    "release_date": "2021-03-24",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "양정웅"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 122469,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "데시벨": {
+    "movie_code": "20217905",
+    "kobis_title": "데시벨",
+    "release_date": "2022-11-16",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "황인호"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 901426,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "도굴(컬렉터)": {
+    "movie_code": "20192193",
+    "kobis_title": "도굴",
+    "release_date": "2020-11-04",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "박정배"
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 1545281,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "도둑들": {
+    "movie_code": "20124034",
+    "kobis_title": "도둑들",
+    "release_date": "2012-07-25",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "최동훈"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 12984701,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "도마뱀": {
+    "movie_code": "20060085",
+    "kobis_title": "도마뱀",
+    "release_date": "2006-04-27",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "강지은"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 363898,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "디바": {
+    "movie_code": "20190601",
+    "kobis_title": "디바",
+    "release_date": "2020-09-23",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "조슬예"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 108122,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "루시드 드림": {
+    "movie_code": "20156562",
+    "kobis_title": "루시드 드림",
+    "release_date": "2017-02-22",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김준성"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 102170,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "리바운드": {
+    "movie_code": "20226489",
+    "kobis_title": "리바운드",
+    "release_date": "2023-04-05",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "장항준"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 707866,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "리얼": {
+    "movie_code": "20159647",
+    "kobis_title": "리얼",
+    "release_date": "2017-06-28",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이사랑"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 470195,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "마더": {
+    "movie_code": "20090248",
+    "kobis_title": "마더",
+    "release_date": "2009-05-28",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "봉준호"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2982177,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "마들렌": {
+    "movie_code": "20020006",
+    "kobis_title": "마들렌",
+    "release_date": "2003-01-10",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "박광춘"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보"
+  },
+  "마이 뉴 파트너": {
+    "movie_code": "20080142",
+    "kobis_title": "마이 뉴 파트너",
+    "release_date": "2008-03-06",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김종현"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 260734,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "마이웨이": {
+    "movie_code": "20110295",
+    "kobis_title": "마이 웨이",
+    "release_date": "2011-12-21",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "강제규"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2142671,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "마지막 선물...귀휴": {
+    "movie_code": "20080014",
+    "kobis_title": "마지막 선물",
+    "release_date": "2008-02-05",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김영준 "
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 265362,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "몽타주": {
+    "movie_code": "20122784",
+    "kobis_title": "몽타주",
+    "release_date": "2013-05-16",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "정근섭"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2095592,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "무방비 도시": {
+    "movie_code": "20071064",
+    "kobis_title": "무방비도시",
+    "release_date": "2008-01-10",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이상기"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1600856,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "무적자": {
+    "movie_code": "20100833",
+    "kobis_title": "무적자",
+    "release_date": "2010-09-16",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "송해성"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1546132,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "바람": {
+    "movie_code": "20090822",
+    "kobis_title": "바람",
+    "release_date": "2009-11-26",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이성한"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 103628,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "박쥐": {
+    "movie_code": "20081003",
+    "kobis_title": "박쥐",
+    "release_date": "2009-04-30",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "박찬욱"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2211154,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "배심원들": {
+    "movie_code": "20187981",
+    "kobis_title": "배심원들",
+    "release_date": "2019-05-15",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "홍승완"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 289158,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "버닝": {
+    "movie_code": "20173202",
+    "kobis_title": "버닝",
+    "release_date": "2018-05-17",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이창동"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 531959,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "버티고": {
+    "movie_code": "20183407",
+    "kobis_title": "버티고",
+    "release_date": "2019-10-16",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "전계수"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 14422,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "범죄의 재구성": {
+    "movie_code": "20040487",
+    "kobis_title": "범죄의 재구성",
+    "release_date": "2004-04-15",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "최동훈"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 943241,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "베테랑": {
+    "movie_code": "20148048",
+    "kobis_title": "베테랑",
+    "release_date": "2015-08-05",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "류승완"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 13414649,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "보이스": {
+    "movie_code": "20190815",
+    "kobis_title": "보이스",
+    "release_date": "2021-09-15",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김선",
+      "김곡"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1427380,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "보통사람": {
+    "movie_code": "20167902",
+    "kobis_title": "보통사람",
+    "release_date": "2017-03-23",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김봉한"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 383336,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "부산": {
+    "movie_code": "20090581",
+    "kobis_title": "부산",
+    "release_date": "2009-10-15",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "박지원 "
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 158943,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "브로커": {
+    "movie_code": "20206257",
+    "kobis_title": "브로커",
+    "release_date": "2022-06-08",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "고레에다 히로카즈"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1261283,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "블랙 팬서": {
+    "movie_code": "20170561",
+    "kobis_title": "블랙 팬서",
+    "release_date": "2018-02-14",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "라이언 쿠글러"
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 5400241,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "비와 당신의 이야기": {
+    "movie_code": "20193068",
+    "kobis_title": "비와 당신의 이야기",
+    "release_date": "2021-04-28",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "조진모"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 400958,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "사자": {
+    "movie_code": "20180442",
+    "kobis_title": "사자",
+    "release_date": "2019-07-31",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김주환"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1611163,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "상류사회": {
+    "movie_code": "20177537",
+    "kobis_title": "상류사회",
+    "release_date": "2018-08-29",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "변혁"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 768442,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "성난황소": {
+    "movie_code": "20184481",
+    "kobis_title": "성난황소",
+    "release_date": "2018-11-22",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김민호"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1593386,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "세븐 데이즈": {
+    "movie_code": "20070466",
+    "kobis_title": "세븐 데이즈",
+    "release_date": "2007-11-14",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "원신연"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2048339,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "소년들": {
+    "movie_code": "20200622",
+    "kobis_title": "소년들",
+    "release_date": "2023-11-01",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "정지영"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 471657,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "소울메이트": {
+    "movie_code": "20197654",
+    "kobis_title": "소울메이트",
+    "release_date": "2023-03-15",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "민용근"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 250553,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "소원": {
+    "movie_code": "20134582",
+    "kobis_title": "소원",
+    "release_date": "2013-10-02",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이준익"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2711144,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "소풍": {
+    "movie_code": "20231415",
+    "kobis_title": "소풍",
+    "release_date": "2024-02-07",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김용균"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 371088,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "수(壽)": {
+    "movie_code": "20070066",
+    "kobis_title": "수",
+    "release_date": "2007-03-22",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "최양일"
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 199709,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "슈퍼스타": {
+    "movie_code": "20125430",
+    "kobis_title": "슈퍼스타",
+    "release_date": "2012-06-07",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "임진순"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1575,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "스위치": {
+    "movie_code": "20215315",
+    "kobis_title": "스위치",
+    "release_date": "2023-01-04",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "마대윤"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 422417,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "승부": {
+    "movie_code": "20203863",
+    "kobis_title": "승부",
+    "release_date": "2025-03-26",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김형주"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2146672,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "신세계": {
+    "movie_code": "20124401",
+    "kobis_title": "신세계",
+    "release_date": "2013-02-21",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "박훈정"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 4690270,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "아수라": {
+    "movie_code": "20153443",
+    "kobis_title": "아수라",
+    "release_date": "2016-09-28",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김성수"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2595147,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "아저씨": {
+    "movie_code": "20100214",
+    "kobis_title": "아저씨",
+    "release_date": "2010-08-04",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이정범"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 6179701,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "야수": {
+    "movie_code": "20050345",
+    "kobis_title": "야수",
+    "release_date": "2006-01-12",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김성수"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 837011,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "어린 왕자": {
+    "movie_code": "20080008",
+    "kobis_title": "어린 왕자",
+    "release_date": "2008-01-17",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "최종현"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 83354,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "엽기적인 그녀 2": {
+    "movie_code": "20143509",
+    "kobis_title": "엽기적인 그녀 2",
+    "release_date": "2016-05-12",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "조근식"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 77124,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "오아시스": {
+    "movie_code": "20020226",
+    "kobis_title": "오아시스",
+    "release_date": "2002-08-14",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이창동"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2276,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "오피스": {
+    "movie_code": "20143511",
+    "kobis_title": "오피스",
+    "release_date": "2015-09-03",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "홍원찬"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 441208,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "올드보이": {
+    "movie_code": "20030350",
+    "kobis_title": "올드보이",
+    "release_date": "2003-11-21",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "박찬욱"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 318233,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "와일드카드": {
+    "movie_code": "20030061",
+    "kobis_title": "와일드 카드",
+    "release_date": "2003-05-16",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김유진"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보"
+  },
+  "용의자": {
+    "movie_code": "20124938",
+    "kobis_title": "용의자",
+    "release_date": "2013-12-24",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "원신연"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 4131338,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "우리 형": {
+    "movie_code": "20040628",
+    "kobis_title": "우리 형",
+    "release_date": "2004-10-08",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "안권태"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1778224,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "운동회": {
+    "movie_code": "20162983",
+    "kobis_title": "운동회",
+    "release_date": "2018-03-22",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김진태"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 5122,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "위험한 상견례": {
+    "movie_code": "20119618",
+    "kobis_title": "위험한 상견례",
+    "release_date": "2011-03-31",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김진영"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2595625,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "은밀한 유혹": {
+    "movie_code": "20136869",
+    "kobis_title": "은밀한 유혹",
+    "release_date": "2015-06-04",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "윤재구"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 145697,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "의뢰인": {
+    "movie_code": "20110613",
+    "kobis_title": "의뢰인",
+    "release_date": "2011-09-29",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "손영성"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2393254,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "이대로, 죽을 순 없다": {
+    "movie_code": "20050189",
+    "kobis_title": "이대로, 죽을 순 없다(Short Time)",
+    "release_date": "2005-08-18",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이영은 "
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 679187,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "인랑": {
+    "movie_code": "20170942",
+    "kobis_title": "인랑",
+    "release_date": "2018-07-25",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "김지운"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 899029,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "인생은 아름다워": {
+    "movie_code": "20198317",
+    "kobis_title": "인생은 아름다워",
+    "release_date": "2022-09-28",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "최국희"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1176530,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "잠복근무": {
+    "movie_code": "20050013",
+    "kobis_title": "잠복근무",
+    "release_date": "2005-03-17",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "박광춘"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1533225,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "조폭 마누라 2": {
+    "movie_code": "20030138",
+    "kobis_title": "조폭마누라2-돌아온 전설",
+    "release_date": "2003-09-05",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "정흥순"
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 9,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "증인": {
+    "movie_code": "20185881",
+    "kobis_title": "증인",
+    "release_date": "2019-02-13",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이한"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2535695,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "집으로 가는 길": {
+    "movie_code": "20134123",
+    "kobis_title": "집으로 가는 길",
+    "release_date": "2013-12-11",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "방은진"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1854869,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "집행자": {
+    "movie_code": "20090669",
+    "kobis_title": "집행자",
+    "release_date": "2009-11-05",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "최진호"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 393019,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "카운트다운": {
+    "movie_code": "20111914",
+    "kobis_title": "카운트다운",
+    "release_date": "2011-09-29",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "허종호"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 471631,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "타짜": {
+    "movie_code": "20060277",
+    "kobis_title": "타짜",
+    "release_date": "2006-09-28",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "최동훈"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 5692238,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "타짜: 신의 손": {
+    "movie_code": "20134804",
+    "kobis_title": "타짜-신의 손",
+    "release_date": "2014-09-03",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "강형철"
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 4015361,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "태풍": {
+    "movie_code": "20050326",
+    "kobis_title": "태풍",
+    "release_date": "2005-12-14",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "곽경택"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 3469206,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "파묘": {
+    "movie_code": "20234675",
+    "kobis_title": "파묘",
+    "release_date": "2024-02-22",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "장재현"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 11916041,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "판도라": {
+    "movie_code": "20144641",
+    "kobis_title": "판도라",
+    "release_date": "2016-12-07",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "박정우"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 4585116,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "퍼펙트 게임": {
+    "movie_code": "20113260",
+    "kobis_title": "퍼펙트 게임",
+    "release_date": "2011-12-21",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "박희곤"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1507085,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "퍼펙트맨": {
+    "movie_code": "20184483",
+    "kobis_title": "퍼펙트맨",
+    "release_date": "2019-10-02",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "용수"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1240085,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "평행이론": {
+    "movie_code": "20090160",
+    "kobis_title": "평행이론",
+    "release_date": "2010-02-18",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "권호영"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 921111,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "하이파이브": {
+    "movie_code": "20211791",
+    "kobis_title": "하이파이브",
+    "release_date": "2025-05-30",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "강형철"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1893717,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "해무": {
+    "movie_code": "20134082",
+    "kobis_title": "해무(海霧)",
+    "release_date": "2014-08-13",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "심성보"
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 1475582,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "허스토리": {
+    "movie_code": "20172469",
+    "kobis_title": "허스토리",
+    "release_date": "2018-06-27",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "민규동"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 337784,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "헌트": {
+    "movie_code": "20211792",
+    "kobis_title": "헌트",
+    "release_date": "2022-08-10",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이정재"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 4352513,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "헨젤과 그레텔": {
+    "movie_code": "20070643",
+    "kobis_title": "헨젤과 그레텔",
+    "release_date": "2007-12-27",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "임필성"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 311539,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "협상": {
+    "movie_code": "20177308",
+    "kobis_title": "협상",
+    "release_date": "2018-09-19",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "이종석"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 1967750,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "홍반장": {
+    "movie_code": "20040471",
+    "kobis_title": "어디선가 누군가에 무슨일이 생기면 틀림없이 나타난다 홍반장",
+    "release_date": "2004-03-12",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "강석범"
+    ],
+    "matching_method": "제목 표기 대조",
+    "audience": 181510,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "화장": {
+    "movie_code": "20133682",
+    "kobis_title": "화장",
+    "release_date": "2015-04-09",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "임권택"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 142730,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "황해": {
+    "movie_code": "20101222",
+    "kobis_title": "황해",
+    "release_date": "2010-12-22",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "나홍진"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2260512,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  },
+  "히트맨": {
+    "movie_code": "20192101",
+    "kobis_title": "히트맨",
+    "release_date": "2020-01-22",
+    "release_date_source": "KOBIS 영화목록",
+    "directors": [
+      "최원섭"
+    ],
+    "matching_method": "제목·한국 장편·개봉일 조건의 단일 후보",
+    "audience": 2406232,
+    "audience_as_of": "2026-11-18",
+    "audience_source": "KOBIS(발권)통계 · 전국"
+  }
+}

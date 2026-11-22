@@ -1,0 +1,8 @@
+.nhip-contact { margin: 12px 0; line-height: 1.7; }
+.nhip-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
+.nhip-actions a { display: inline-flex; align-items: center; gap: 6px; border: 1px solid #8b95a566; border-radius: 8px; padding: 8px 12px; text-decoration: none; font-weight: 500; }
+.nhip-actions a:first-child { background: #5071ec12; }
+.nhip-manager { margin-top: 12px; font-size: 12px; opacity: .85; }
+.nhip-manager > summary { cursor: pointer; }
+.nhip-manager .nhi-admin { margin-top: 8px; }
+.nhip-footnote { font-size: 12px; opacity: .75; line-height: 1.6; }

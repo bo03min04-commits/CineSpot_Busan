@@ -1,5 +1,7 @@
+import { correctNearbyPlace } from './nearbyPlaceRules';
+import PlaceOperatingInfo from './PlaceOperatingInfo';
 import { useEffect, useMemo, useRef, useState } from 'react';
-
+import MovieRecommendations from './MovieRecommendations';
 // 영화 공공데이터는 전체 촬영 이력입니다. 방문 추천은 검증한 대표 명소만 별도로 선정합니다.
 // 선정 기준: 부산시/부산 관광 공식 소개에서 영화 연관성과 대표 방문 장소 확인.
 // 다른 작품을 추가할 때도 외부 근거를 확인한 뒤 목록에 등록하세요.
@@ -129,7 +131,7 @@ async function loadNearby(kakao, anchor) {
   const normalize = (rows, kind, count) => {
     const unique = new Map();
     for (const row of rows) {
-      const place = toKakaoPlace(row, kind, anchor);
+      const place = correctNearbyPlace(toKakaoPlace(row, kind, anchor));
       if (place && place.distance <= RADIUS_METERS && !unique.has(row.id)) unique.set(row.id, place);
     }
     return [...unique.values()].sort((a, b) => a.distance - b.distance).slice(0, count);
@@ -613,6 +615,8 @@ function FilmExplorer({ movie, locations, onReset, onSave, onRecommend, onMovieS
             <span className="nearby-copy"><strong>{i + 1}. {place.name}</strong><small>촬영지에서 직선거리 {formatMeters(place.distance)}</small><small>{place.address || '주소 없음'}</small></span>
           </label>
           {place.url && <a className="details-link" href={place.url} target="_blank" rel="noreferrer">상세 ↗</a>}
+          {/* Only restaurant tab mounts operating information. */}
+          {tab === 'food' && <PlaceOperatingInfo place={place}/>}
         </div>)}
       </div>
       {nearbyState === 'ready' && !nearby[tab].length && <p className="places-status">이 유형의 검색 결과가 없어.</p>}
@@ -1007,6 +1011,11 @@ export default function App() {
               </button>)}
             </div>}
           </section>
+          <MovieRecommendations
+  apiBase={API_BASE}
+  onMovieSearch={searchMovie}
+  searchLoading={searchStatus === 'loading'}
+/>
           <div className="feature-entry"><button type="button" className="secondary-button" onClick={() => setView('location-explorer')}>⌖ 내 주변 · 부산 지역별 촬영지 탐색</button></div>
           {posterLoading && <p className="search-feedback">포스터 인식 중...</p>}
           {searchStatus === 'loading' && <p className="search-feedback">“{movie}” 촬영지 검색 중...</p>}

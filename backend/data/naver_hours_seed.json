@@ -1,0 +1,118 @@
+{
+  "input_url": "https://naver.me/xGIVzWtm",
+  "checked_at": "2026-11-20T21:15:59.320192+09:00",
+  "result": "AUTO_HOURS_FOUND",
+  "opened_hours_automatically": true,
+  "status": "closed_now",
+  "status_text": "영업 종료11:00에 영업 시작",
+  "weekly_hours": [
+    {
+      "day": "월",
+      "hours": [
+        "11:00–20:30"
+      ],
+      "breaks": [
+        "15:00–17:00"
+      ],
+      "closed": false,
+      "notes": []
+    },
+    {
+      "day": "화",
+      "hours": [
+        "11:00–20:30"
+      ],
+      "breaks": [
+        "15:00–17:00"
+      ],
+      "closed": false,
+      "notes": []
+    },
+    {
+      "day": "수",
+      "hours": [
+        "11:00–20:30"
+      ],
+      "breaks": [
+        "15:00–17:00"
+      ],
+      "closed": false,
+      "notes": []
+    },
+    {
+      "day": "목",
+      "hours": [
+        "11:00–20:30"
+      ],
+      "breaks": [
+        "15:00–17:00"
+      ],
+      "closed": false,
+      "notes": []
+    },
+    {
+      "day": "금",
+      "hours": [
+        "11:00–20:30"
+      ],
+      "breaks": [
+        "15:00–17:00"
+      ],
+      "closed": false,
+      "notes": []
+    },
+    {
+      "day": "토",
+      "hours": [
+        "11:00–20:30"
+      ],
+      "breaks": [
+        "15:00–17:00"
+      ],
+      "closed": false,
+      "notes": []
+    },
+    {
+      "day": "일",
+      "hours": [],
+      "breaks": [],
+      "closed": true,
+      "notes": [
+        "정기휴무 (매주 일요일)"
+      ]
+    }
+  ],
+  "closed_days": [
+    "일"
+  ],
+  "complete_week": true,
+  "operating_section_excerpt": [
+    "영업시간",
+    "영업 종료11:00에 영업 시작",
+    "11시 0분에 영업 시작",
+    "금",
+    "11:00 - 20:30",
+    "15:00 - 17:00 브레이크타임",
+    "토",
+    "11:00 - 20:30",
+    "15:00 - 17:00 브레이크타임",
+    "일",
+    "정기휴무 (매주 일요일)",
+    "월",
+    "11:00 - 20:30",
+    "15:00 - 17:00 브레이크타임",
+    "화",
+    "11:00 - 20:30",
+    "15:00 - 17:00 브레이크타임",
+    "수",
+    "11:00 - 20:30",
+    "15:00 - 17:00 브레이크타임",
+    "목",
+    "11:00 - 20:30",
+    "15:00 - 17:00 브레이크타임",
+    "접기",
+    "영업시간 수정 제안하기"
+  ],
+  "source_url": "https://map.naver.com/p/entry/place/1755049474",
+  "page_title": "토담밥집 - 네이버지도"
+}
