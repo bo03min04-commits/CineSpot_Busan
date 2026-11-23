@@ -1,0 +1,11 @@
+.google-place-operating { flex: 0 0 100%; width: 100%; min-width: 0; box-sizing: border-box; padding: 14px; border: 1px solid #8b95a544; border-radius: 12px; margin-top: 12px; text-align: left; }
+.google-operating-widget { width: 100%; min-width: 0; margin-top: 10px; }
+.google-operating-widget gmp-place-search, .google-operating-widget gmp-place-details { display: block; width: 100%; max-width: 100%; }
+.google-operating-message { font-size: 13px; line-height: 1.6; }
+.google-operating-note { font-size: 12px; opacity: .75; line-height: 1.6; }
+.google-operating-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+.google-operating-actions button { color: inherit; background: transparent; border: 1px solid #8b95a566; border-radius: 7px; padding: 7px 10px; cursor: pointer; }
+.place-operating-google-wrapper { flex: 0 0 100%; width: 100%; min-width: 0; }
+.place-operating-google-wrapper > details { margin-top: 10px; font-size: 13px; }
+.place-operating-google-wrapper summary { cursor: pointer; padding: 5px 0; }
+.nearby-item:has(> .place-operating-google-wrapper) { flex-wrap: wrap; }

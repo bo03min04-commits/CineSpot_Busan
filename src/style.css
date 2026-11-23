@@ -278,3 +278,446 @@ button { cursor:pointer; }
 .history-heading-button:hover { color:#3479f6; }
 .sidebar-history-heading .history-heading-button { font-size:12px; font-weight:800; color:var(--text); white-space:normal; }
 .sidebar-history-heading .history-heading-button:hover { color:#3479f6; }
+
+/* Added independent location explorer; existing screens remain unchanged. */
+.feature-entry { margin:24px auto; display:flex; justify-content:center; }
+.location-explorer { max-width:1050px; margin:auto; }
+.location-controls { display:flex; flex-wrap:wrap; align-items:end; gap:12px; margin-bottom:18px; }
+.location-controls label { display:flex; flex-direction:column; gap:6px; font-size:12px; font-weight:700; }
+.location-controls select { padding:10px; border:1px solid var(--line); border-radius:9px; background:var(--surface); color:var(--text); }
+.location-controls .location-checkbox { flex-direction:row; align-items:center; padding-bottom:12px; }
+.location-results { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:12px; margin-top:15px; max-height:620px; overflow:auto; }
+.location-card { border:1px solid var(--line); border-radius:12px; padding:15px; display:flex; flex-direction:column; gap:8px; }
+.location-card strong { font-size:14px; }
+.location-card span,.location-card small { color:var(--secondary); font-size:12px; }
+.location-card .action-row { align-items:center; flex-wrap:wrap; margin-top:auto; }
+.location-card a { color:#3479f6; font-size:12px; }
+
+.poster-candidates { display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:center; margin:14px auto; max-width:850px; }
+.poster-candidates strong { width:100%; text-align:center; }
+.poster-candidates button { max-width:100%; }
+/* Center the plus icon without relying on font glyph metrics. */
+.add-button { display:flex; align-items:center; justify-content:center; padding:0; line-height:1; }
+.add-plus-icon { display:block; flex:none; transform-origin:50% 50%; }
+.location-selected-map { border:1px solid var(--line); border-radius:14px; padding:14px; margin:14px 0; }
+.location-selected-map .action-row { margin-top:12px; }
+.location-pagination { display:flex; justify-content:center; align-items:center; gap:16px; margin-top:16px; font-size:13px; }
+
+/* Shared filmography for a physical filming location */
+.filmed-movies { margin: 10px 0; padding: 12px; border: 1px solid #e2e6ef; border-radius: 12px; background: #f8faff; }
+.filmed-movies > strong { display: block; margin-bottom: 8px; font-size: 13px; }
+.filmed-movie-links { display: flex; flex-wrap: wrap; gap: 7px; }
+.filmed-movie-tag { border: 1px solid #d6ddeb; background: white; border-radius: 20px; padding: 6px 10px; font: inherit; font-size: 12px; color: #24314d; }
+button.filmed-movie-tag { cursor: pointer; }
+button.filmed-movie-tag:hover { border-color: #648dff; }
+.movie-recommendations {
+  width: min(960px, 100%);
+  box-sizing: border-box;
+  margin: 24px auto;
+  padding: 0 20px;
+  color: inherit;
+}
+
+.movie-recommendations-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.movie-recommendations-heading h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.movie-sort-options {
+  display: flex;
+  gap: 8px;
+}
+
+.movie-sort-options button {
+  padding: 8px 12px;
+  border: 1px solid currentColor;
+  border-radius: 20px;
+  background: transparent;
+  color: inherit;
+}
+
+.movie-sort-options button:disabled {
+  opacity: 0.45;
+}
+
+.movie-recommendations > p {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.movie-recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+}
+
+.movie-recommendation-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid currentColor;
+  border-radius: 14px;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+
+.movie-recommendation-card strong {
+  overflow-wrap: anywhere;
+}
+
+.movie-recommendation-card span {
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+.movie-recommendation-card:hover:not(:disabled) {
+  background: rgba(128, 128, 128, 0.12);
+}
+
+.movie-recommendation-card:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+.movie-recommendations-grid {
+  grid-template-columns: 1fr;
+}
+
+.movie-recommendation-card {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  padding: 18px 22px;
+}
+
+.movie-recommendation-card .movie-rank {
+  min-width: 44px;
+  font-size: 22px;
+  font-weight: 800;
+  opacity: 1;
+}
+
+.movie-recommendation-card strong {
+  flex: 1;
+  min-width: 140px;
+  font-size: 17px;
+}
+
+.movie-recommendation-card > span:last-child {
+  margin-left: auto;
+}
+
+@media (max-width: 600px) {
+  .movie-recommendation-card {
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .movie-recommendation-card strong {
+    min-width: 0;
+    flex-basis: calc(100% - 64px);
+  }
+}
+/* === CineSpot 부산 | original illustrated desktop web theme (2026-11) === */
+:root { color-scheme: light; }
+.app-shell {
+  --bg: #f2f8fd;
+  --text: #14284a;
+  --secondary: #637c98;
+  --surface: #ffffff;
+  --line: #dce9f7;
+  --muted: #f1f7ff;
+  --accent: #2879e5;
+  --accent-strong: #145bc7;
+  background: linear-gradient(170deg,#f2f8fd 0%,#f7fbff 60%,#edf6ff 100%);
+  overflow-x: clip;
+}
+.app-shell.dark {
+  --bg: #101c33;
+  --text: #f2f8ff;
+  --secondary: #acc3de;
+  --surface: #182b46;
+  --line: #34506e;
+  --muted: #243e61;
+  --accent: #69adff;
+  --accent-strong: #418de9;
+  background: linear-gradient(170deg,#101c33,#142641 80%,#101c33);
+  color-scheme: dark;
+}
+.app-main { position: relative; isolation: isolate; min-height: 100vh; }
+.app-main::before {
+  content: ''; position: absolute; inset: 64px 0 0; z-index: -1; pointer-events: none;
+  background-image: url('/cinespot-icon-pattern.svg');
+  background-size: 360px 250px; background-repeat: repeat; opacity: .55;
+}
+.dark .app-main::before { opacity: .16; filter: brightness(1.5); }
+.app-sidebar {
+  width: 255px; min-width: 255px; background: linear-gradient(175deg,#ffffff 0%,#f7fbff 85%);
+  border-right: 1px solid #dceafb; padding: 25px 15px 16px;
+  box-shadow: 4px 0 23px #477eaa09;
+}
+.dark .app-sidebar { background: linear-gradient(180deg,#1b2d48,#16253e); border-right-color:var(--line); }
+.sidebar-header { padding: 4px 7px 27px; }
+.sidebar-brand { color: #122c5c; display:flex;align-items:center;gap:5px; font-size: 18px; letter-spacing: -.85px; }
+.sidebar-brand span:last-child { color: #2879e5; }
+.sidebar-brand .sidebar-logo-icon {
+  width: 30px; height: 30px; display:inline-grid;place-items:center; color:#fff;
+  border-radius: 9px; background: linear-gradient(150deg,#479ff2,#1d5fcc); margin-right: 5px;
+  box-shadow: 0 5px 12px #377dc438;
+}
+.dark .sidebar-brand { color:#f5faff; }
+.new-chat-button {
+  justify-content:flex-start; min-height:51px; border:0; color:#fff;
+  background:linear-gradient(125deg,#4b9df9,#2271e0); border-radius:13px;
+  box-shadow: 0 7px 19px #2d82eb2e; font-size:14px; padding:12px 17px;
+}
+.new-chat-button:hover { color:#fff; background:linear-gradient(125deg,#3689e8,#115cc9); transform:translateY(-1px); }
+.new-chat-button span { font-size:22px;line-height:1; }
+.sidebar-shortcut, .history-item { font-size:13px; padding:12px 13px; color:var(--text); }
+.sidebar-shortcut { margin:10px 0 1px; font-weight:700; }
+.sidebar-shortcut.selected,.history-item.selected { color:#2376e8; background:#e4f1ff; }
+.dark .sidebar-shortcut.selected,.dark .history-item.selected { color:#8cc1ff; background:#24456c; }
+.sidebar-shortcut:hover,.history-item:hover { background:#edf6ff; }
+.dark .sidebar-shortcut:hover,.dark .history-item:hover { background:var(--muted); }
+.sidebar-history-heading { margin-top: 28px; border-top:1px solid var(--line); padding:21px 12px 12px; }
+.sidebar-scenery {
+  flex:0 0 auto; height: 125px; border-radius: 17px;
+  background:linear-gradient(180deg,transparent 8%,#eaf6ff70),url('/cinespot-busan-hero.svg') left 74% / auto 220px no-repeat;
+  margin: 15px 0 6px; opacity:.85;
+}
+.dark .sidebar-scenery { opacity:.65; }
+.sidebar-bottom { padding:12px 7px 2px; text-align:center; font-size:10px; letter-spacing:.05px; border:0; }
+.topbar {
+  height: 68px; z-index: 10; position:relative; max-width: none;
+  padding:0 37px; background: #ffffffed; border-bottom:1px solid #d9e8f6;
+  box-shadow: 0 1px 7px #345c9010; backdrop-filter: blur(10px);
+}
+.dark .topbar { background:#162841ed; border-color:var(--line); }
+.topbar-left { gap:18px; }
+.topbar .wordmark { font-size:19px; font-weight:850; color:#18396a; }
+.topbar .wordmark span { color:#2b77eb; margin-left:5px; }
+.dark .topbar .wordmark {color:#f4f9ff;}
+.theme-button { padding:9px 16px; border-radius:100px; color:#356698; background:#edf5ff; border-color:#d7e7fb; font-weight:700; }
+.dark .theme-button { background:#273f5e; color:#dcecff; }
+.page-content { max-width:1410px; margin:0 auto; padding:16px 35px 75px; }
+/* Main search hero: illustrated Busan coastal scene with evenly spaced movie/travel motifs. */
+.hero {
+  position:relative; isolation:isolate; box-sizing:border-box; overflow:visible;
+  width:100%; max-width:none; min-height:540px; margin:3px auto 34px;
+  padding:80px 35px 110px; border-radius: 24px;
+  background-image:linear-gradient(180deg,#f3faff3d 0%,#e8f7ff7d 43%,#d9f2ff05 93%),url('/cinespot-busan-hero.svg');
+  background-size:cover; background-position:center bottom;
+  border:1px solid #c8e5fa; box-shadow:0 18px 35px #4389ba18;
+  text-align:center; transition:none;
+}
+.hero > * { position:relative; z-index:1; }
+.hero-film-icon { display:inline-flex; align-items:center; justify-content:center; width:66px; height:56px; filter:drop-shadow(0 5px 6px #3b85be36); }
+.hero-film-icon svg { width:64px; height:60px; }
+.hero-kicker { font-weight:900;letter-spacing:2.1px;color:#2a79c6;font-size:11px; margin: 7px 0 5px; }
+.hero h1 { color:#0b2758; margin: 0 0 3px; font-size:clamp(42px,5.2vw,68px); line-height:1.18; letter-spacing:-2.5px; font-weight:850; text-shadow:0 2px 3px #ffffffbd; }
+.hero h1 span { color:#2879e3; }
+.hero-subtitle { margin:13px 0 30px; color:#44668e; font-size:19px; font-weight:750; }
+.hero .searchbar {
+  width:min(790px,100%); margin:0 auto; min-height:75px;
+  padding:9px 11px 9px 20px; border: 2px solid #ffffffed;
+  background:#fffffff7; box-shadow:0 14px 37px #346faa2b; gap:10px;
+}
+.hero .searchbar input { color:#1d365d; font-size:15px; }
+.hero .searchbar input::placeholder { color:#879db8; }
+.hero .submit-button { width:52px; height:52px; font-size:29px; box-shadow:0 5px 13px #367fd74a; background:linear-gradient(145deg,#418ffe,#236ddb); }
+.hero .search-icon-button { color:#5783aa; width:35px; }
+.hero .search-icon-button:hover { color:#246cce; }
+.hero-quick-actions { display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin:18px auto 0; }
+.hero-quick-actions button { color:#245ca3; background:#ffffffdc; border:1px solid #cce3f8; border-radius:100px; font-size:12px; padding:10px 16px; font-weight:800; box-shadow:0 6px 12px #3a73a31a; }
+.hero-quick-actions button:hover { background:#fff; border-color:#75aefa; }
+.hero-quick-actions button span { display:inline-block; margin-right:6px; font-size:15px; }
+.hero .notice { background:#fffffff2; color:#284a75; border:1px solid #cde2f5; }
+.hero .image-chip { color:#27476f; background:#fff; }
+/* The search bar never remains in the results pages: the compact art banner replaces it. */
+.scene-banner {
+  position:relative; display:flex; align-items:center; justify-content:center;
+  min-height:178px; overflow:hidden; border-radius:24px;
+  background:linear-gradient(90deg,#e9f7ffb9,#e3f5ff85 50%,#d3f1fd46), url('/cinespot-busan-hero.svg') center 48% / cover no-repeat;
+  border:1px solid #cfe8f8; box-shadow:0 10px 30px #4188b919;
+  margin:3px 0 27px;
+}
+.scene-banner-inner { text-align:center; padding:30px; position:relative; z-index:1; }
+.scene-banner-eyebrow { font-weight:900; color:#2d80cf; font-size:10px; letter-spacing:2.5px; }
+.scene-banner h1 { color:#123362; font-size:clamp(22px,2.8vw,34px); margin:6px 0 5px; letter-spacing:-1.4px; text-shadow:0 2px 2px #fff; }
+.scene-banner p { color:#3c6b94; margin:0; font-weight:650; font-size:12px; }
+.dark .scene-banner,.dark .hero { border-color:#456a89; }
+.dark .scene-banner-inner,.dark .hero > * { filter:none; }
+.dark .scene-banner h1,.dark .hero h1 { color:#133e69; }
+.dark .hero-subtitle,.dark .scene-banner p {color:#244e80;}
+/* Content surfaces: light elevated cards, tighter hierarchy */
+.movie-recommendations {
+  position:relative; width:100%; margin:0 auto 25px; padding:24px 26px 29px;
+  border:1px solid #dceafa; border-radius:22px; background:#fffffff5;
+  box-shadow:0 10px 25px #437fa418;
+}
+.dark .movie-recommendations { background:var(--surface);border-color:var(--line); }
+.movie-recommendations-heading { margin-bottom:18px; }
+.movie-recommendations-heading h2 {display:flex;align-items:center;gap:8px; flex-wrap:wrap; color:var(--text);font-size:21px;font-weight:850;letter-spacing:-.7px;}
+.movie-recommendations-heading h2 small { font-size:11px;font-weight:600;color:var(--secondary);letter-spacing:0;margin-left:4px; }
+.recommendations-heading-icon { display:grid;place-items:center;width:28px;height:28px;border-radius:9px;background:#e5f1ff;color:#287add;font-size:19px; }
+.movie-sort-options { background:#edf5ff; border:1px solid #dfebfc; border-radius:99px; padding:4px; gap:2px; }
+.movie-sort-options button { border:0; border-radius:99px; background:transparent; color:#506b91; font-size:12px; font-weight:800; padding:8px 18px; }
+.movie-sort-options button[aria-pressed="true"] { color:#fff; background:linear-gradient(130deg,#4b99ef,#2977e9); box-shadow:0 3px 7px #438cdb33; }
+.dark .movie-sort-options {background:var(--muted);border-color:var(--line);}
+.dark .movie-sort-options button {color:var(--text)}
+.movie-recommendations > p {font-size:11px;opacity:.7;margin: 8px 0 14px;}
+.movie-recommendations-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;}
+.movie-recommendation-card {
+  display:flex;flex-direction:row;align-items:stretch; flex-wrap:nowrap;gap:13px;
+  border:1px solid #dce8f7;border-radius:16px;padding:13px;background:#fff;
+  box-shadow:0 4px 11px #315e8612;min-height:158px;text-align:left;
+  transition:transform .18s,box-shadow .18s,border-color .18s;
+}
+.dark .movie-recommendation-card { background:var(--muted);border-color:var(--line); }
+.movie-recommendation-card:hover:not(:disabled) { border-color:#77b2f4;background:#f7fbff;transform:translateY(-3px);box-shadow:0 13px 19px #4083b522; }
+.dark .movie-recommendation-card:hover:not(:disabled) {background:#2a4667;}
+.planner-card, .saved-card, .map-panel, .bottom-actions, .empty-panel { box-shadow:0 7px 24px #3a72a014; border-color:#dce9f6; }
+.dark .planner-card,.dark .saved-card,.dark .map-panel,.dark .bottom-actions,.dark .empty-panel {border-color:var(--line);}
+.results {margin-top:12px;}
+.journey-results {max-width:930px;}
+.film-pick-screen,.selection-screen {max-width:900px;}
+.film-pick-screen + .bottom-actions,.route-layout+.bottom-actions {max-width:900px;}
+.results-title h2 {color:var(--text);font-weight:850;}
+.eyebrow {color:var(--accent);font-weight:900;}
+.route-button {background:linear-gradient(120deg,#418df0,#246fe0);box-shadow:0 5px 14px #317bea27;}
+.route-button:not(:disabled):hover {filter:brightness(.96);}
+.footer {color:var(--secondary);background:#ffffffa1;border-top:1px solid #deebf7;}
+.dark .footer {background:#152640;border-color:var(--line);}
+@media(max-width:1280px){
+  .page-content { padding:16px 24px 60px; }
+  .movie-recommendations-grid {grid-template-columns:repeat(2,minmax(0,1fr));}
+  .hero {min-height:500px;padding:70px 25px 100px;}
+}
+@media(max-width:950px){
+  .app-sidebar {width:255px;min-width:255px;}
+  .page-content {padding:13px 18px 55px;}
+  .hero { min-height:490px;margin:6px auto 24px; }
+  .scene-banner { min-height:155px; }
+  .sidebar-scenery {height:120px;}
+}
+@media(max-width:650px){
+  .topbar { height:62px;padding:0 15px; }
+  .topbar .wordmark {font-size:16px;}
+  .page-content {padding:10px 12px 45px;}
+  .hero {min-height:495px;border-radius:18px;padding:66px 14px 55px;background-position: center bottom;}
+  .hero-film-icon {width:45px;height:44px;}
+  .hero-film-icon svg {width:48px;height:46px;}
+  .hero-kicker {font-size:9px;letter-spacing:1.5px;}
+  .hero h1 {font-size:39px;letter-spacing:-1.8px;}
+  .hero-subtitle {font-size:14px;margin:13px 0 26px;}
+  .hero .searchbar {min-height:59px;padding:6px 8px;gap:3px;}
+  .hero .searchbar input {font-size:12px;}
+  .hero .submit-button {width:41px;height:41px;font-size:24px;}
+  .hero-quick-actions {gap:6px;margin-top:15px;}
+  .hero-quick-actions button {padding:9px 10px;font-size:10px;}
+  .movie-recommendations {padding:18px 12px 21px;border-radius:17px;}
+  .movie-recommendations-heading h2 {font-size:16px;}
+  .movie-recommendations-heading h2 small {font-size:10px;}
+  .movie-sort-options button {font-size:11px;padding:7px 12px;}
+  .movie-recommendations-grid {grid-template-columns:1fr;gap:10px;}
+  .movie-recommendation-card {min-height:135px;padding:10px;}
+  .scene-banner {min-height:142px;border-radius:16px;}
+  .scene-banner h1 {font-size:22px;}
+  .scene-banner p {font-size:11px;}
+}
+
+
+/* Restore the original text-only recommended movie cards.
+   Keep the rest of the updated CineSpot website design unchanged. */
+.movie-recommendations .movie-recommendations-grid {
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+.movie-recommendations .movie-recommendation-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  min-height: 0;
+  padding: 18px 22px;
+}
+.movie-recommendations .movie-recommendation-card > .movie-rank {
+  min-width: 44px;
+  font-size: 21px;
+  font-weight: 800;
+  opacity: 1;
+}
+.movie-recommendations .movie-recommendation-card > strong {
+  flex: 1 1 160px;
+  min-width: 140px;
+  font-size: 17px;
+  line-height: 1.4;
+  color: var(--text);
+}
+.movie-recommendations .movie-recommendation-card > span:not(.movie-rank) {
+  font-size: 12px;
+  color: var(--secondary);
+  opacity: 1;
+}
+.movie-recommendations .movie-recommendation-card > span:last-child {
+  margin-left: auto;
+  font-weight: 800;
+  color: #2774df;
+  opacity: 1;
+}
+@media (max-width: 600px) {
+  .movie-recommendations .movie-recommendation-card {
+    padding: 15px 16px;
+    gap: 10px;
+  }
+  .movie-recommendations .movie-recommendation-card > strong {
+    min-width: 120px;
+    font-size: 15px;
+  }
+}
+
+/* PDF 공유: 파일 공유 미지원 브라우저용 명확한 선택 메뉴 */
+.pdf-share-overlay {
+  position:fixed; inset:0; z-index:3000; background:rgba(14,32,56,.56);
+  display:flex; justify-content:center; align-items:center; padding:20px;
+  backdrop-filter:blur(5px);
+}
+.pdf-share-dialog {
+  width:min(100%,490px); max-height:calc(100vh - 40px); overflow:auto;
+  background:var(--surface,#fff); color:var(--text,#172b45);
+  border:1px solid var(--line,#dce9f7); border-radius:23px;
+  box-shadow:0 24px 70px rgba(8,28,54,.22); padding:27px;
+}
+.pdf-share-header {display:flex;align-items:flex-start;justify-content:space-between;gap:14px;}
+.pdf-share-eyebrow {font-size:10px;font-weight:850;letter-spacing:1.4px;color:var(--accent,#2879e5);}
+.pdf-share-header h2 {font-size:23px;line-height:1.35;letter-spacing:-.7px;margin:8px 0 0;}
+.pdf-share-close {flex:0 0 auto;border:0;border-radius:11px;background:var(--muted,#edf5ff);color:var(--text);font-size:24px;line-height:1;width:36px;height:36px;cursor:pointer;}
+.pdf-share-description {font-size:13px;line-height:1.75;color:var(--secondary);margin:18px 0;}
+.pdf-share-file {display:flex;gap:12px;align-items:center;background:var(--muted,#edf5ff);border:1px solid var(--line);padding:15px;border-radius:15px;}
+.pdf-share-file > span {display:grid;place-items:center;flex:0 0 auto;width:45px;height:53px;border-radius:9px;background:#2879e5;color:#fff;font-weight:900;font-size:13px;}
+.pdf-share-file > div {display:flex;flex-direction:column;min-width:0;gap:5px;}
+.pdf-share-file strong {font-size:13px;overflow-wrap:anywhere;}
+.pdf-share-file small {color:var(--secondary);font-size:11px;}
+.pdf-share-actions {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:19px;}
+.pdf-share-actions button,.pdf-share-actions a {display:flex;align-items:center;justify-content:center;min-height:46px;border-radius:11px;padding:10px;font-size:13px;font-weight:800;text-align:center;cursor:pointer;text-decoration:none;}
+.pdf-share-primary {background:#2879e5;color:#fff;border:1px solid #2879e5;}
+.pdf-share-secondary,.pdf-share-map {background:var(--surface);color:var(--text);border:1px solid var(--line);}
+.pdf-share-actions .pdf-share-map {grid-column:1 / -1;}
+.pdf-share-status {font-size:12px;line-height:1.6;color:var(--accent);font-weight:700;margin:13px 0 0;}
+.pdf-share-note {font-size:11px;line-height:1.65;color:var(--secondary);margin:15px 0 0;}
+@media(max-width:480px){.pdf-share-dialog{padding:21px;}.pdf-share-actions{grid-template-columns:1fr;}.pdf-share-actions .pdf-share-map{grid-column:auto;}}
